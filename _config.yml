@@ -1,0 +1,14 @@
+# Site settings
+title: "News from London"
+email: futurewavewebdevelopment@gmail.com
+description: "A Daily journal by Edward Hyde"
+baseurl: "/london-news" # the subpath of your site, e.g. /blog
+url: "http://brucemwhealton.github.io/" # the base hostname & protocol for your site
+twitter_username: WebDeveloper1
+github_username:  BruceMWhealton
+
+# Build settings
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /articles/:title
